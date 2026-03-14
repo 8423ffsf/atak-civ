@@ -163,7 +163,7 @@
   <string name="supportPreferences">支持偏好设置</string>
   <string name="loggingPreferences">日志记录偏好设置</string>
   <string name="advancedloggingPreferences">高级日志记录偏好设置</string>
-  <string name="gpsPreferences">全球定位系统图标偏好设置</string>
+  <string name="gpsPreferences">GPS图标偏好设置</string>
   <string name="format" translatable="false">format.dat</string>
   <string name="dropdown_width" translatable="false">2</string>
   <string name="contact_list_button_select_all">全选</string>
@@ -185,7 +185,7 @@
   <string name="fast_forward">快进</string>
   <string name="time_zero">00:00:00</string>
   <string name="no_value">不适用</string>
-  <string name="aircraft_title">飞行器：</string>
+  <string name="aircraft_title">航空器：</string>
   <string name="altitude_title">海拔：</string>
   <string name="heading_title">航向：</string>
   <string name="pitch_title">俯仰：</string>
@@ -204,8 +204,8 @@
   <string name="zeroize_sub_text">清除地图和影像</string>
   <string name="danger_close_coloring">危险接近着色</string>
   <string name="danger_close_coloring_summary">将危险接近环（卧姿和立姿）显示为不同颜色。如果禁用，立姿位置将显示为红色（卧姿不显示）。如果启用，立姿位置显示为红色，卧姿位置显示为黄色。</string>
-  <string name="use_digital_cas">使用数字近距空中支援设备</string>
-  <string name="use_digital_cas_summary">启用与设备通信以发送数字近距空中支援</string>
+  <string name="use_digital_cas">使用DCAS设备</string>
+  <string name="use_digital_cas_summary">启用与设备通信以发送DCAS</string>
   <string name="fah_distance">最终攻击航向距离（海里）</string>
   <string name="SeekBarPreference_androidns" translatable="false">http://schemas.android.com/apk/res/android</string>
   <string name="TrackLogKMLSerializier_opengis" translatable="false">http://www.opengis.net/kml/2.2</string>
@@ -225,7 +225,7 @@
   <string name="choose_app">选择应用…</string>
   <string name="preferences_text409">创建文件失败。文件是否已存在？</string>
   <string name="preferences_text410">系统仍在加载中。请重试。</string>
-  <string name="voip_assignment_disabled">无网络电话</string>
+  <string name="voip_assignment_disabled">无VOIP</string>
   <string name="voip_assignment_manual_entry">手动输入</string>
   <string name="voip_assignment_ip">使用IP地址</string>
   <string name="voip_assignment_ip_callsign">使用呼号和IP地址</string>
@@ -241,7 +241,7 @@
   <string name="add_account">添加账户</string>
   <string name="delete_account_msg">删除账户：%s？</string>
   <!--告警-->
-  <string name="preferences_text1">告警期间显示安卓通知。</string>
+  <string name="preferences_text1">告警期间在安卓通知栏显示。</string>
   <string name="preferences_text2">声音告警</string>
   <string name="preferences_text3">告警期间发出声音提示。</string>
   <string name="preferences_text4">振动告警</string>
@@ -329,23 +329,23 @@
   <string name="preferences_text29">每当收到新的聊天消息时使手机振动（需要启用通知）。</string>
   <string name="preferences_text30">每当收到新的聊天消息时播放默认通知声音（需要启用通知）。</string>
   <string name="preferences_text31">声音聊天通知</string>
-  <string name="preferences_text32">将完整聊天历史记录写入磁盘上的逗号分隔值文件。</string>
+  <string name="preferences_text32">将完整聊天历史记录写入磁盘上的CSV文件。</string>
   <string name="preferences_text33">导出聊天历史记录</string>
   <string name="preferences_text34">清除聊天历史记录。</string>
   <string name="preferences_text35">清除历史记录</string>
   <string name="preferences_text36">在应用重启后保留聊天组，即使该组并非源自此设备（需要重启）</string>
   <string name="preferences_text37">持久化聊天组</string>
   <string name="preferences_text38">聊天地址</string>
-  <string name="preferences_text39">发送聊天消息的地址。必须与其他地理聊天提供者匹配。</string>
+  <string name="preferences_text39">发送聊天消息的地址。必须与其他GeoChat提供者匹配。</string>
   <string name="preferences_text40">聊天端口</string>
-  <string name="preferences_text41">发送聊天消息的端口。必须与其他地理聊天提供者匹配。</string>
+  <string name="preferences_text41">发送聊天消息的端口。必须与其他GeoChat提供者匹配。</string>
   <!--控制-->
   <string name="preferences_text42">当所有标记类型过时时，将其从地图上移除</string>
   <string name="preferences_text43">调整图像和视频媒体偏好设置</string>
-  <string name="preferences_text44">启用后，当达到过时时间时，从设备中删除所有非存档类型。项目将根据下面的“过时项目清理时间”被删除。</string>
-  <string name="preferences_text45">项目过时后经过此分钟数后从设备中删除。</string>
-  <string name="preferences_text46">当未知标记过时时将其移除</string>
-  <string name="preferences_text47">启用后，当达到过时时间时，从设备中删除未知标记类型。</string>
+  <string name="preferences_text44">启用后，当达到过时时间时，从设备中删除所有非存档类型。项目将根据下面的“过期项目清理时间”被删除。</string>
+  <string name="preferences_text45">项目过期后经过此分钟数后从设备中删除。</string>
+  <string name="preferences_text46">当未知标记过期时将其移除</string>
+  <string name="preferences_text47">启用后，当达到过期时间时，从设备中删除未知标记类型。</string>
   <string name="preferences_text48">按返回键退出</string>
   <string name="preferences_text49">按下返回按钮时退出。</string>
   <string name="preferences_text50">退出前询问</string>
@@ -354,12 +354,12 @@
   <string name="preferences_text53">确定长按地图时发生什么。</string>
   <string name="preferences_text56">双击放大2倍</string>
   <string name="preferences_text57">如果选中，双击地图（不拖动）将放大2倍。</string>
-  <string name="preferences_text58">启用音量键旋转地图图层</string>
+  <string name="preferences_text58">启用音量键循环切换地图图层</string>
   <string name="preferences_text59">如果选中，音量键切换地图。否则，使用设备默认音量行为。</string>
   <string name="preferences_text60">禁用屏幕锁定</string>
   <string name="preferences_text61">如果选中，屏幕锁定将在整个系统范围内被禁用！</string>
   <string name="preferences_text62">强制飞行模式</string>
-  <string name="preferences_text63">启动时强制飞行模式。此功能仅在某些较旧的手机上受支持，可能在运行安卓奇巧或更高版本的新设备上不起作用。如果设备在启动时未关闭无线电或无线网络，则不支持此功能。</string>
+  <string name="preferences_text63">启动时强制飞行模式。此功能仅在某些较旧的手机上受支持，可能在运行安卓KitKat或更高版本的新设备上不起作用。如果设备在启动时未关闭无线电或无线网络，则不支持此功能。</string>
   <string name="preferences_text64">使用最大数量的纹理单元</string>
   <string name="preferences_text65">如果标记和标签出现渲染问题，请取消选中。</string>
   <string name="preferences_text66">启用纹理复制</string>
@@ -390,27 +390,27 @@
   <string name="preferences_text82" translatable="false">团队成员</string>
   <string name="preferences_text83">指定世界将此设备视为的类型</string>
   <string name="preferences_text84">我的显示类型</string>
-  <string name="preferences_text85">使用全球定位系统时间</string>
+  <string name="preferences_text85">使用GNSS时间</string>
   <string name="preferences_text86">如果为真，设备将在可用时使用全球定位系统时间。</string>
   <string name="preferences_text87">联系人偏好设置</string>
-  <string name="preferences_text88">发布电话号码</string>
+  <string name="preferences_text88">公开电话号码</string>
   <string name="preferences_text89">向其他用户显示电话号码（如果可用），并允许两台设备之间进行直接电话呼叫和短信（如果支持）</string>
-  <string name="preferences_text90">指定是否发布网络电话地址，以及是自动配置还是手动配置。</string>
-  <string name="preferences_text91">发布网络电话号码</string>
-  <string name="preferences_text92">网络电话号码</string>
-  <string name="preferences_text93">用于网络电话呼叫的网络电话号码或会话发起协议地址。留空则不发布。</string>
-  <string name="preferences_text94">发布可扩展消息与存在协议用户名</string>
-  <string name="preferences_text95">可扩展消息与存在协议/杰伯聊天用户名。留空则不发布。</string>
-  <string name="preferences_text96">发布首选电子邮件</string>
-  <string name="preferences_text97">首选电子邮件地址。留空则不发布。</string>
-  <string name="preferences_text100">基于位置收集发送目标光标事件</string>
+  <string name="preferences_text90">指定是否公开VOIP地址，以及是自动配置还是手动配置。</string>
+  <string name="preferences_text91">公开VOIP号码</string>
+  <string name="preferences_text92">VOIP号码</string>
+  <string name="preferences_text93">用于VOIP呼叫的网络电话号码或SIP地址。留空则不公开。</string>
+  <string name="preferences_text94">公开XMPP用户名</string>
+  <string name="preferences_text95">XMPP/Jabber聊天用户名。留空则不公开。</string>
+  <string name="preferences_text96">公开首选电子邮件地址</string>
+  <string name="preferences_text97">首选电子邮件地址。留空则不公开。</string>
+  <string name="preferences_text100">基于位置收集发送COT事件</string>
   <string name="preferences_text121">保存偏好设置</string>
   <string name="preferences_text122">保存当前偏好设置</string>
   <string name="preferences_text124">从文件加载偏好设置</string>
   <string name="preferences_text125">加载偏好设置</string>
-  <string name="preferences_text126">准备克隆 / 清除设备唯一信息</string>
-  <string name="preferences_text461">准备克隆</string>
-  <string name="preferences_text463">准备就绪，可克隆</string>
+  <string name="preferences_text126">准备复制 / 清除设备唯一信息</string>
+  <string name="preferences_text461">准备复制</string>
+  <string name="preferences_text463">准备就绪，可复制</string>
   <string name="preferences_text467">无可用偏好文件。</string>
   <!--报告-->
   <string name="preferences_text98">报告偏好设置</string>
@@ -420,13 +420,13 @@
   <string name="preferences_text466">"（恒定） "</string>
   <string name="preferences_text101">报告策略</string>
   <string name="preferences_text102">动态</string>
-  <string name="preferences_text103">动态报告速率 - 静止（网状网）</string>
-  <string name="preferences_text105">动态报告速率 - 最小（网状网）</string>
-  <string name="preferences_text107">动态报告速率 - 最大（网状网）</string>
+  <string name="preferences_text103">动态报告速率 - 静止（网状组网）</string>
+  <string name="preferences_text105">动态报告速率 - 最小（网状组网）</string>
+  <string name="preferences_text107">动态报告速率 - 最大（网状组网）</string>
   <string name="preferences_text109">动态报告速率 - 静止（服务器）</string>
   <string name="preferences_text111">动态报告速率 - 最小（服务器）</string>
   <string name="preferences_text113">动态报告速率 - 最大（服务器）</string>
-  <string name="preferences_text115">恒定报告速率（网状网）</string>
+  <string name="preferences_text115">恒定报告速率（网状组网）</string>
   <string name="preferences_text116">对于不可靠协议（例如组播），以秒为单位发送自身态势感知消息的恒定间隔</string>
   <string name="preferences_text117">恒定报告速率（服务器）</string>
   <string name="preferences_text119">在获得定位锁定前报告位置</string>
@@ -471,7 +471,7 @@
   <string name="preferences_text164">显示标记标签</string>
   <string name="preferences_text165">在标记下方显示标签。</string>
   <string name="preferences_text166">显示其他用户的通知</string>
-  <string name="preferences_text167">在收到其他用户的态势感知报告时显示安卓通知。</string>
+  <string name="preferences_text167">在收到其他用户的态势感知报告时在安卓通知栏显示。</string>
   <string name="preferences_text168">通知淡出时间</string>
   <string name="preferences_text169">短暂通知在被自动移除前停留在通知栏中的默认时间。</string>
   <string name="preferences_text170">影像选项卡名称</string>
@@ -481,7 +481,7 @@
   <!--高程-->
   <string name="preferences_text174">（色调-饱和度-明度）高程热力图叠加层的明度百分比（0—100）</string>
   <!--地理编码器-->
-  <string name="preferences_text175">启用地址查找（地理编码器）</string>
+  <string name="preferences_text175">启用地址查找（GeoCoder）</string>
   <string name="preferences_text176">启用后，为坐标输入添加“地址”选项卡。</string>
   <string name="preferences_text177">使用安卓地理编码器</string>
   <string name="preferences_text178">启用后使用内置的地理编码器服务。</string>
@@ -507,15 +507,15 @@
   <string name="preferences_text185">导入形状轮廓颜色</string>
   <string name="preferences_text186">导入线宽</string>
   <string name="preferences_text187">导入形状的默认线宽</string>
-  <!--ISRV (可能是与Rover相关的缩写，保留原样)-->
+  <!--ISRV-->
   <string name="preferences_text189">内部网络配置</string>
-  <string name="preferences_text188">选中以启用动态主机配置协议。</string>
+  <string name="preferences_text188">选中以启用DHCP。</string>
   <string name="preferences_text190">IP地址</string>
   <string name="preferences_text191">子网掩码</string>
   <string name="preferences_text192">子网掩码</string>
   <string name="preferences_text193">默认网关</string>
   <string name="preferences_text194">默认网关</string>
-  <string name="preferences_text195">域名系统服务器</string>
+  <string name="preferences_text195">DNS服务器</string>
   <!--主设置-->
   <string name="preferences_text1981">调整常用TAK偏好设置</string>
   <string name="preferences_text198">调整此设备在网络上的可见方式</string>
@@ -564,19 +564,19 @@
   <string name="preferences_text230">监视服务器连接</string>
   <string name="preferences_text231">启用后，在网络不活动一段时间后监视连接并ping服务器。请注意，这会在网络上产生额外流量。</string>
   <string name="preferences_text232">默认安全套接字层/传输层安全性协议信任库位置</string>
-  <string name="preferences_text233">包含您的证书颁发机构的默认公钥加密标准#12密钥库（.p12文件）。可以为此密钥库用于连接，或为每个连接加载证书颁发机构。</string>
-  <string name="preferences_text234">默认安全套接字层/传输层安全性协议信任库密码</string>
-  <string name="preferences_text235">默认安全套接字层/传输层安全性协议客户端证书存储</string>
-  <string name="preferences_text236">包含您的客户端证书的默认公钥加密标准#12密钥库（.p12文件）。可以为此密钥库用于连接，或为每个连接加载客户端证书。</string>
-  <string name="preferences_text237">默认安全套接字层/传输层安全性协议客户端证书密码</string>
-  <string name="preferences_text238">默认安全套接字层/传输层安全性协议凭据</string>
+  <string name="preferences_text233">包含您的证书颁发机构的默认PSKCS12密钥库（.p12文件）。可以为此密钥库用于连接，或为每个连接加载证书颁发机构。</string>
+  <string name="preferences_text234">默认SSL/TLS信任库密码</string>
+  <string name="preferences_text235">默认SSL/TLS客户端证书存储</string>
+  <string name="preferences_text236">包含您的客户端证书的默认PSKCS12密钥库（.p12文件）。可以为此密钥库用于连接，或为每个连接加载客户端证书。</string>
+  <string name="preferences_text237">默认SSL/TLS客户端证书密码</string>
+  <string name="preferences_text238">默认SSL/TLS凭据</string>
   <string name="preferences_text239">用于服务器连接的默认用户名和密码。可以为此凭据用于连接，或为每个连接加载凭据。</string>
-  <string name="preferences_text240">安全服务器应用程序编程接口端口</string>
-  <string name="preferences_text241">服务器应用程序编程接口的安全端口。</string>
-  <string name="preferences_text242">非安全服务器应用程序编程接口端口</string>
-  <string name="preferences_text243">服务器应用程序编程接口的非安全端口。</string>
-  <string name="preferences_cert_enroll_port">证书注册应用程序编程接口端口</string>
-  <string name="preferences_cert_enroll_port_desc">证书注册应用程序编程接口的端口。</string>
+  <string name="preferences_text240">安全服务器API端口</string>
+  <string name="preferences_text241">服务器API的安全端口。</string>
+  <string name="preferences_text242">非安全服务器API端口</string>
+  <string name="preferences_text243">服务器API的非安全端口。</string>
+  <string name="preferences_cert_enroll_port">证书注册API端口</string>
+  <string name="preferences_cert_enroll_port_desc">证书注册API的端口。</string>
   <string name="preferences_cert_enroll_key_length">证书注册密钥长度</string>
   <string name="preferences_cert_enroll_key_length_desc">RSA私钥的位数。</string>
   <string name="preferences_cert_enroll_export">启用客户端证书导出</string>
@@ -595,19 +595,19 @@
   <string name="profile_processing">正在处理 %s</string>
   <string name="invalid_credentials">无效凭据</string>
   <string name="preferences_text244">输入/输出管理</string>
-  <string name="preferences_text245">启用网状网模式</string>
+  <string name="preferences_text245">启用网状组网模式</string>
   <string name="preferences_text246">启用以允许组播流量。禁用以覆盖并禁用所有输入和输出。</string>
-  <string name="preferences_text2451">自动管理网状网自身态势感知模式</string>
-  <string name="preferences_text2461">启用后，如果已连接，自动优先通过服务器发送数据，而不是通过本地网状网。建议用于某些虚拟专用网络配置。</string>
+  <string name="preferences_text2451">自动管理网状组网自身态势感知模式</string>
+  <string name="preferences_text2461">启用后，如果已连接，自动优先通过服务器发送数据，而不是通过本地网状组网。建议用于某些VPN配置。</string>
   <string name="preferences_text247">管理输入</string>
   <string name="preferences_text248">添加和移除输入（高级）</string>
   <string name="preferences_text249">管理输出</string>
   <string name="preferences_text250">添加和移除输出（高级）</string>
   <string name="preferences_text251">网络微调</string>
   <string name="preferences_text252">记录网络流量</string>
-  <string name="preferences_text252_summary">如果选中，将所有传出网络流量捕获到逗号分隔值文件。</string>
-  <string name="preferences_text253">传输控制协议连接超时</string>
-  <string name="preferences_text254">等待传输控制协议连接完成的时长（秒）。较短的值可使失败的连接更快发生（响应更快），但如果该值对您的网络来说太短，则可能会遇到虚假的连接失败。</string>
+  <string name="preferences_text252_summary">如果选中，将所有传出网络流量捕获到CSV文件。</string>
+  <string name="preferences_text253">TCP连接超时</string>
+  <string name="preferences_text254">等待TCP连接完成的时长（秒）。较短的值可使失败的连接更快发生（响应更快），但如果该值对您的网络来说太短，则可能会遇到虚假的连接失败。</string>
   <string name="preferences_text255">组播网络重新加入间隔</string>
   <string name="preferences_text256">组播网络重新加入尝试之间的间隔（秒）。零表示不尝试重新加入。</string>
   <string name="preferences_text257a">组播流量环回</string>
@@ -618,16 +618,16 @@
   <!--网络全球定位系统-->
   <string name="preferences_text260">选择获取定位的方法。</string>
   <string name="preferences_text261">全球定位系统选项</string>
-  <string name="preferences_text264">网络全球定位系统端口</string>
-  <string name="preferences_text265">用于侦听传入的全球定位系统/位置更新的网络端口。通常不需要修改；仅在指示时修改此设置。对于某些无线电，如PRC-161，其位置数据通过网络发送 - 此字段不应修改。</string>
-  <string name="preferences_text378">仅本地全球定位系统</string>
+  <string name="preferences_text264">网络GPS端口</string>
+  <string name="preferences_text265">用于侦听传入的GPS/位置更新的网络端口。通常不需要修改；仅在指示时修改此设置。对于某些无线电，如PRC-161，其位置数据通过网络发送 - 此字段不应修改。</string>
+  <string name="preferences_text378">仅本地GPS系统</string>
   <string name="preferences_text379">网络模拟</string>
   <string name="preferences_text380">全球定位系统服务模拟</string>
   <!--网络-->
   <string name="preferences_text266">调整网络连接</string>
-  <string name="preferences_text267">调整网络全球定位系统偏好设置</string>
+  <string name="preferences_text267">调整网络GPS偏好设置</string>
   <string name="preferences_text268">蓝牙支持</string>
-  <string name="preferences_text269">开启扫描蓝牙设备（例如，激光测距仪和全球定位系统）。</string>
+  <string name="preferences_text269">开启扫描蓝牙设备（例如，激光测距仪和GPS）。</string>
   <string name="preferences_text270">蓝牙重新连接时间</string>
   <string name="preferences_text271">尝试重新连接断开的蓝牙连接的秒数。</string>
   <string name="preferences_text411">网络设置</string>
@@ -648,7 +648,7 @@
   <string name="preferences_text283">指定服务器当前正在侦听的端口</string>
   <string name="preferences_text284">服务器端口</string>
   <string name="preferences_text285">输入本地接收端口</string>
-  <string name="preferences_text286">输入用于接收目标光标事件的本地端口</string>
+  <string name="preferences_text286">输入用于接收COT事件的本地端口</string>
   <string name="preferences_text287">本地接收端口</string>
   <string name="preferences_text288">允许在最终攻击航向可见时对其进行编辑。</string>
   <string name="preferences_text289">最终攻击航向始终编辑模式</string>
@@ -698,7 +698,7 @@
   <string name="open_route_around">绕行区域管理器</string>
   <string name="manage_route_around_regions">管理绕行区域</string>
   <string name="preferences_text318">高程剖面插值海拔</string>
-  <string name="preferences_text319">启用后，从附近路线点插值高程剖面图海拔。禁用后使用数字地形高程数据海拔。</string>
+  <string name="preferences_text319">启用后，从附近路线点插值高程剖面图海拔。禁用后使用DTED高程数据海拔。</string>
   <string name="preferences_text320">高程剖面以搜寻器为中心</string>
   <string name="preferences_text321">启用后，将地图聚焦在高程剖面图搜寻器标记（蓝点）上。</string>
   <string name="preferences_text322">GPS交换格式导入检查点</string>
@@ -722,7 +722,7 @@
   <string name="preferences_text334">更改/创建图标主要自定义颜色</string>
   <string name="preferences_text335">选择自定义颜色。</string>
   <string name="preferences_text470">更改/创建图标轮廓自定义颜色</string>
-  <!--战术数据链-J（可能是Link 16相关的缩写）-->
+  <!--Tadil-J-->
   <string name="preferences_text336">自身位置类型</string>
   <string name="preferences_text337">航迹块的起始编号</string>
   <string name="preferences_text338">偏移重置</string>
@@ -741,7 +741,7 @@
   <string name="preferences_text448">请重新输入您的信任库证书密码</string>
   <string name="preferences_text449">请重新输入您的客户端证书密码</string>
   <string name="preferences_text450">确定要移除所有列出的流式连接吗？</string>
-  <string name="preferences_text451">目前不支持添加传输控制协议输出。</string>
+  <string name="preferences_text451">目前不支持添加TCP输出。</string>
   <string name="preferences_text416">工具设置</string>
   <!--单位显示-->
   <string name="preferences_text342">坐标显示</string>
@@ -774,7 +774,7 @@
   <string name="preferences_text372">重置提示</string>
   <string name="preferences_text3721">TAK设备配置</string>
   <string name="preferences_text373">选择以重置应用提示。</string>
-  <string name="preferences_text3731">选择以显示TAK设备配置屏幕。</string>
+  <string name="preferences_text3731">选择以显示TAK设备配置流程。</string>
   <string name="preferences_text374">立即发送应用日志</string>
   <string name="preferences_text375">点击立即导出应用日志。</string>
   <string name="preferences_text376">自动上传应用日志</string>
@@ -795,7 +795,7 @@
   <string name="preferences_text417">请稍候…</string>
   <string name="preferences_text418">检测到网络配置错误问题</string>
   <string name="preferences_text419">在应用目录中检测到网络配置文件，但未安装NetworkMonitor应用程序。在多无线电配置中，需要NetworkMonitor。可以通过“设置->工具偏好设置->插件和应用程序管理->网络监视器应用程序”下的链接进行安装。\n正在移除网络配置文件。</string>
-  <string name="preferences_text420">检测到三星盖乐世S5</string>
+  <string name="preferences_text420">检测到Samsung Galaxy S5</string>
   <string name="preferences_text421">重要提示 - 检测到的特定设备和操作系统组合不允许锁屏在运行此软件时正常恢复。要将手机配置为在屏幕锁定后正确返回，请在继续之前进入安卓设置->锁屏->安全锁定时间，设置为“按下电源键立即锁定或屏幕超时后”。</string>
   <string name="preferences_text420a">可修复媒体服务器问题</string>
   <string name="preferences_text421a">重要提示 - 许多版本的安卓操作系统存在一个问题，即操作系统在扫描多媒体文件（地图数据、视频）时卡住。我们检测到您使用的安卓版本可以通过禁用进程“mediaserver”来解决此问题。</string>
@@ -848,7 +848,7 @@
   <string name="create_tracks_progress">正在创建轨迹…</string>
   <string name="create_tracks_toast">已创建 %d 条轨迹</string>
   <string name="publish">发布</string>
-  <!--跳跃桥接（可能是特定工具或模式）-->
+  <!-- JumpBridge -->
   <string name="gr_dest_jm">下滑比至目标</string>
   <string name="range_jm">距离</string>
   <string name="groundspeed_jm">地速</string>
@@ -895,7 +895,7 @@
   <string name="gry" translatable="false">Gry</string>
   <string name="blk" translatable="false">Blk</string>
   <string name="cstm" translatable="false">Cstm</string>
-  <string name="mag3" translatable="false">" 磁, "</string>
+  <string name="mag3" translatable="false">" MAG, "</string>
   <!--地速-->
   <string name="kmph_units">公里/小时</string>
   <string name="mph_units">英里/小时</string>
@@ -913,14 +913,14 @@
   <string name="r" translatable="false">右</string>
   <string name="l" translatable="false">左</string>
   <string name="mz_units" translatable="false">密位</string>
-  <string name="mag2" translatable="false">磁</string>
+  <string name="mag2" translatable="false">MAG</string>
   <string name="dd" translatable="false">十进制度</string>
   <string name="dm" translatable="false">度分</string>
   <string name="dms" translatable="false">度分秒</string>
   <string name="d_m_s" translatable="false">度-分-秒</string>
   <string name="degrees" translatable="false">" 度"</string>
-  <string name="mag">" 磁"</string>
-  <string name="mag_space">" 磁 "</string>
+  <string name="mag">" MAG"</string>
+  <string name="mag_space">" MAG "</string>
   <!--海拔-->
   <string name="feet_above_dip">高于目标进入点的英尺数</string>
   <string name="feet_above_ground">离地高度（英尺）</string>
@@ -929,7 +929,7 @@
   <string name="ft_msl3">" 英尺 平均海平面"</string>
   <string name="ft_msl4">--- 英尺 平均海平面</string>
   <!--当前位置-->
-  <string name="mgrs">军事格网参考系</string>
+  <string name="mgrs">军事格网参考系MRGS</string>
   <string name="degrees_full">度</string>
   <string name="mils_full">密位</string>
   <string name="vehicle_dimensions" translatable="false">%1$1.0f x %2$1.0f x %3$1.0f %4$s</string>
@@ -1306,7 +1306,7 @@
   <string name="routes_text7">路线传输完成</string>
   <string name="routes_text8">导出路线失败</string>
   <string name="routes_text9">新路线</string>
-  <string name="routes_text10">选择要导入的文件（钥匙孔标记语言或GPS交换格式）</string>
+  <string name="routes_text10">选择要导入的文件（KML或GPX格式）</string>
   <string name="routes_text11">请提供路线名称</string>
   <string name="routes_text12">" 路线已导出"</string>
   <string name="routes_text13">" 已导出到："</string>
@@ -1436,7 +1436,7 @@
   <string name="point_dropper_text25">编辑位置和类型</string>
   <string name="point_dropper_text33">纬度必须在[-90:90]之间。</string>
   <string name="point_dropper_text34">经度必须在[-180:180]之间。</string>
-  <string name="point_dropper_text35">军事格网参考系无效。输入有效的军事格网参考系坐标。</string>
+  <string name="point_dropper_text35">MGRS无效。输入有效的MGRS坐标。</string>
   <string name="point_dropper_text36">并非所有必填字段都已填写。</string>
   <string name="point_dropper_text37">前两个字段中有一个为空。</string>
   <string name="point_dropper_text38">至少有一个字段不正确。</string>
@@ -1446,10 +1446,10 @@
   <string name="point_dropper_text44">未提供电话号码…</string>
   <string name="point_dropper_text45">未安装电话应用…</string>
   <string name="point_dropper_text46">未安装短信应用…</string>
-  <string name="point_dropper_text47">未提供网络电话号码…</string>
-  <string name="point_dropper_text48">未安装网络电话应用…</string>
-  <string name="point_dropper_text49">未提供可扩展消息与存在协议用户名…</string>
-  <string name="point_dropper_text50">未安装可扩展消息与存在协议应用…</string>
+  <string name="point_dropper_text47">未提供VOIP号码…</string>
+  <string name="point_dropper_text48">未安装VOIP应用…</string>
+  <string name="point_dropper_text49">未提供XMPP用户名…</string>
+  <string name="point_dropper_text50">未安装XMPP应用…</string>
   <string name="point_dropper_text51">未提供电子邮件地址…</string>
   <string name="point_dropper_text52">未安装电子邮件应用…</string>
   <string name="point_dropper_text53">解析延迟值时出错。默认值为5秒。</string>
@@ -1457,11 +1457,11 @@
   <string name="point_dropper_text55">选择子类型</string>
   <string name="point_dropper_text56">"选择图标颜色："</string>
   <string name="point_dropper_text57">拖动锚点以更改车辆航向。</string>
-  <string name="point_dropper_text58">添加目标光标事件输入</string>
+  <string name="point_dropper_text58">添加CoT输入</string>
   <string name="point_dropper_text59">输入协议</string>
-  <string name="point_dropper_text60">添加目标光标事件输出</string>
+  <string name="point_dropper_text60">添加目CoT输出</string>
   <string name="point_dropper_text61">输出协议</string>
-  <string name="point_dropper_text62">添加流式目标光标事件端点</string>
+  <string name="point_dropper_text62">添加流式CoT端点</string>
   <string name="point_dropper_text63">流式协议</string>
   <string name="iconset_delete">" ？如果有地图项目引用此图标集，它们将默认为通用图标。"</string>
   <string name="iconset_exported">图标集已导出</string>
@@ -1475,7 +1475,7 @@
   <string name="mapping_selected">" （*已选）"</string>
   <string name="spot_map">定点地图</string>
   <string name="mapping_iconset">" 图标集"</string>
-  <string name="mapping_dialog">选择图标集（压缩包）</string>
+  <string name="mapping_dialog">选择图标集（Zip）</string>
   <string name="azimuth">方位角</string>
   <string name="vehicle_model">车辆模型</string>
   <string name="vehicle_dim_lw">尺寸（长宽）</string>
@@ -1559,7 +1559,7 @@
   <string name="bp_ha" translatable="false">基点/攻击航向</string>
   <string name="waypt">航路点</string>
   <string name="op">观察哨</string>
-  <string name="slant" translatable="false">简易单兵远征报告</string>
+  <string name="slant" translatable="false">SSE报告</string>
   <string name="slant_jackpot">目标/高价值目标</string>
   <string name="slant_review">需审查</string>
   <string name="slant_clear">清除</string>
@@ -1715,7 +1715,7 @@
   <string name="nineline_text58">"保持于 "</string>
   <string name="nineline_text59">"空域协调区："</string>
   <string name="nineline_text60">返回</string>
-  <string name="nineline_text61">"全球定位系统时间："</string>
+  <string name="nineline_text61">"GPS时间："</string>
   <string name="nineline_text62">"系统时间："</string>
   <string name="nineline_text63">最终攻击航向</string>
   <string name="nineline_text64">中心</string>
@@ -1766,7 +1766,7 @@
   <string name="callforfire_text12">5-行线</string>
   <string name="callforfire_text14">", 这里是 "</string>
   <string name="callforfire_text15">, 火力任务, 完毕</string>
-  <string name="callforfire_text16">固定翼/武装直升机 近距离空中支援请求</string>
+  <string name="callforfire_text16">固定翼/武装直升机 近空支援请求</string>
   <string name="callforfire_text17">"我的位置: "</string>
   <string name="callforfire_text18">"（自定义位置）\n"</string>
   <string name="callforfire_text19">未标记</string>
@@ -1793,7 +1793,7 @@
   <string name="readout_text1">"（飞行器呼号）, 准备好接受行动计划时请告知。\n\n"</string>
   <string name="readout_text2">"（攻击方法）, \n"</string>
   <string name="readout_text3">"请求弹药: \n"</string>
-  <string name="readout_text4">准备好接受9-行线时请告知。</string>
+  <string name="readout_text4">准备好接受九行报文时请告知。</string>
   <string name="readout_text5">" 椭球高"</string>
   <string name="readout_text6">" 离地高度"</string>
   <string name="readout_text7">右侧脱离</string>
@@ -1869,14 +1869,14 @@
   <string name="unnamed">未命名</string>
   <string name="none_caps">无</string>
   <!-- 请勿翻译 Keyhole A-E 和 Overhead -->
-  <string name="key_a" translatable="false">锁眼 A</string>
-  <string name="key_b" translatable="false">锁眼 B</string>
-  <string name="key_c" translatable="false">锁眼 C</string>
-  <string name="key_d" translatable="false">锁眼 D</string>
-  <string name="key_e" translatable="false">锁眼 E</string>
-  <string name="overhead" translatable="false">头顶</string>
+  <string name="key_a" translatable="false">Keyhole A</string>
+  <string name="key_b" translatable="false">Keyhole B</string>
+  <string name="key_c" translatable="false">Keyhole C</string>
+  <string name="key_d" translatable="false">Keyhole D</string>
+  <string name="key_e" translatable="false">Keyhole E</string>
+  <string name="overhead" translatable="false">Overhead</string>
   <string name="ip" translatable="false">初始点</string>
-  <string name="key">"锁眼 "</string>
+  <string name="key">"Keyhole "</string>
   <string name="notice">注意</string>
   <string name="changing_elevation">"正在将高程从 "</string>
   <string name="are_you_sure2">"。\n确定吗？"</string>
@@ -1910,7 +1910,7 @@
   <string name="set_duration">设置压制持续时间</string>
   <string name="set_number">设置目标编号</string>
   <!-- 请勿翻译 suppress_caps -->
-  <string name="suppress_caps" translatable="false">压制</string>
+  <string name="suppress_caps" translatable="false">SUPPRESS</string>
   <string name="type_caps">"类型 "</string>
   <string name="bomb_on_target">炸弹命中目标</string>
   <string name="bomb_on_coordinate">炸弹命中坐标</string>
@@ -1924,7 +1924,7 @@
   <string name="reds_and_msds">风险评估距离和最小安全距离</string>
   <string name="minimum_safe_distance">最小安全距离</string>
   <string name="missing_callsign">[缺少呼号]</string>
-  <string name="no_gps">无全球定位系统。请点击地图以标记您当前位置。</string>
+  <string name="no_gps">无GPS。请点击地图以标记您当前位置。</string>
   <string name="continue_text">继续</string>
   <string name="category">类别</string>
   <string name="accuracy">精度</string>
@@ -1959,7 +1959,7 @@
   <string name="chat_text4">[已被移出群组]</string>
   <string name="chat_text5">[已更新联系人]</string>
   <string name="chat_text6">无法确定聊天发送目的地！</string>
-  <string name="chat_text7">调整地理聊天偏好设置</string>
+  <string name="chat_text7">调整GeoChat偏好设置</string>
   <string name="chat_text8">此组无法修改。</string>
   <string name="chat_text9">此组为空。</string>
   <string name="chat_text10">仅未读</string>
@@ -1999,7 +1999,7 @@
   <string name="notification_text10">主机无法访问</string>
   <string name="notification_text11">解析主机失败</string>
   <string name="notification_text12">连接被拒绝</string>
-  <string name="notification_text13">安全套接字层握手失败；请验证端口和证书是否正确</string>
+  <string name="notification_text13">SSL握手失败；请验证端口和证书是否正确</string>
   <string name="notification_text14">远程主机未提供证书</string>
   <string name="notification_text15">不信任远程主机的证书；请检查信任库</string>
   <string name="notification_text16">连接到主机超时</string>
@@ -2009,9 +2009,9 @@
   <string name="notification_text20">输入输出错误；正在重新连接</string>
   <string name="notification_text21">未知错误</string>
   <string name="notification_text22">检测到系统时间漂移</string>
-  <string name="notification_text23">"警告：时间与报告的全球定位系统时间相差超过10秒，正在临时修正系统时间。报告的全球定位系统时间："</string>
-  <string name="notification_text24">"警告：时间与报告的全球定位系统时间相差 "</string>
-  <string name="notification_text25">" 秒。报告的全球定位系统时间是："</string>
+  <string name="notification_text23">"警告：时间与报告的GPSS时间相差超过10秒，正在临时修正系统时间。报告的GPS时间："</string>
+  <string name="notification_text24">"警告：时间与报告的GPS时间相差 "</string>
+  <string name="notification_text25">" 秒。报告的GPS时间是："</string>
   <string name="notification_text26">" 报告的系统时间是："</string>
   <string name="notification_text27">" 条告警\n点击此处查看详情"</string>
   <string name="notification_text28">"成功连接到 "</string>
@@ -2149,16 +2149,16 @@
   <string name="select_a_color">选择颜色</string>
   <string name="select_import_type">选择导入类型</string>
   <string name="local_sd">本地存储</string>
-  <string name="kml_networklink">钥匙孔标记语言链接</string>
+  <string name="kml_networklink">KML链接</string>
   <string name="http_url" translatable="false">HTTP 网址</string>
   <string name="select_files_to_import">选择要导入的文件</string>
   <string name="select_directory_to_import">选择要导入的目录</string>
   <string name="no_import_files">未选择要导入的文件！</string>
   <string name="no_import_directory">未选择目录！</string>
   <string name="multiple_import_directory">请选择一个目录</string>
-  <string name="apk_directory_no_apks">目录中没有安卓安装包文件，是否要继续？\n%s</string>
+  <string name="apk_directory_no_apks">目录中没有APK文件，是否要继续？\n%s</string>
   <string name="apk_directory_no_apks_hint_title">选择目录</string>
-  <string name="apk_directory_no_apks_hint">导航到父目录，然后选中包含安卓安装包文件的目录旁边的复选框</string>
+  <string name="apk_directory_no_apks_hint">导航到父目录，然后选中包含APK文件的目录旁边的复选框</string>
   <string name="confirm_directory">确认目录</string>
   <string name="items">%d 个项目</string>
   <string name="single_item">1 个项目</string>
@@ -2235,11 +2235,11 @@
   <string name="tool_text28">工具栏隐藏</string>
   <string name="tool_text29">新行为 - 长按地图隐藏工具栏，再次长按显示。</string>
   <string name="tool_text30">激光测距仪</string>
-  <string name="tool_text32">全球定位系统方位已锁定\n点击此处解锁</string>
-  <string name="tool_text33">全球定位系统方位已锁定</string>
+  <string name="tool_text32">GPS方位已锁定\n点击此处解锁</string>
+  <string name="tool_text33">GPS方位已锁定</string>
   <string name="tool_text34">设备没有加速度计</string>
   <string name="tool_text36">设备没有罗盘</string>
-  <string name="tool_text38">设备没有内部全球定位系统</string>
+  <string name="tool_text38">设备没有内部GPS</string>
   <string name="failed_to_save_changes">保存更改失败</string>
   <string name="label_required">需要标签</string>
   <string name="label_may_not_be_reused">“默认”标签不得重复使用</string>
@@ -2638,14 +2638,14 @@
   <string name="number_alerts">告警数：%d</string>
   <string name="view">查看</string>
   <!--无线电控制-->
-  <string name="ppp_mode_only">仅点对点协议模式</string>
-  <string name="harris_soft_kdu">哈里斯软件密钥分发单元</string>
-  <string name="pocket_ddl">便携式数字数据链路</string>
+  <string name="ppp_mode_only">仅ppp模式</string>
+  <string name="harris_soft_kdu">Harris Soft KDU</string>
+  <string name="pocket_ddl">Pocket DDL</string>
   <string name="watch">观察</string>
   <string name="status_disconnected">状态：已断开</string>
   <string name="radio_controls">无线电控制</string>
-  <string name="radio_state_disconnecting">正在断开点对点协议串行连接</string>
-  <string name="radio_state_connecting">正在尝试点对点协议串行连接</string>
+  <string name="radio_state_disconnecting">正在断开ppp串行连接</string>
+  <string name="radio_state_connecting">正在尝试ppp串行连接</string>
   <string name="radio_online">"在线："</string>
   <string name="radio_device_not_rooted">设备 %s 未获取根权限</string>
   <string name="radio_device_unsupported">设备 %s 不受支持</string>
@@ -2653,13 +2653,13 @@
   <string name="radio_device_supported">设备 %s 受支持</string>
   <string name="cable">线缆</string>
   <string name="multifunction_cable">多功能线缆</string>
-  <string name="radio_prc_152a_details1">哈里斯 Vulos SA 仅在 CT 模式下工作\n对于 SA over 12041—5662—01 或类似的 PRC-152A 线缆\n\n\n</string>
-  <string name="radio_bdat_details1">哈里斯 Vulos SA 仅在 CT 模式下工作\n对于 SA over APEX/BLACK DIAMOND/BDAT PRC-152A 线缆\n\n\n</string>
-  <string name="radio_rda_details1">哈里斯 Vulos SA 仅在 CT 模式下工作\n对于 SA over 传统多模式 RDA-152</string>
+  <string name="radio_prc_152a_details1">Harris Vulos SA 仅在 CT 模式下工作\n对于 SA over 12041—5662—01 或类似的 PRC-152A 线缆\n\n\n</string>
+  <string name="radio_bdat_details1">Harris Vulos SA 仅在 CT 模式下工作\n对于 SA over APEX/BLACK DIAMOND/BDAT PRC-152A 线缆\n\n\n</string>
+  <string name="radio_rda_details1">Harris Vulos SA 仅在 CT 模式下工作\n对于 SA over 传统多模式 RDA-152</string>
   <string name="radio_rda_details2">\t[PGM], 无线电配置, 常规配置, \n\t\t\t 数据端口配置, 常规硬件配置\n\n\n</string>
   <string name="radio_rda_details3">硬件接口=RS-232</string>
   <string name="radio_rda_details4">\n\n\n这些通常是用于较旧 PRC-152 的线缆，支持 HPW/PPP 但不支持 ANW2</string>
-  <string name="radio_ppp_hpw_details1">哈里斯 Vulos SA 仅在 CT 模式下工作\n对于 SA over 传统 PPP/HPW 线缆\n\n\n</string>
+  <string name="radio_ppp_hpw_details1">Harris Vulos SA 仅在 CT 模式下工作\n对于 SA over 传统 PPP/HPW 线缆\n\n\n</string>
   <string name="radio_ppp_hpw_details2">\t[PGM], 无线电配置, 常规配置, \n\t\t\t 数据端口配置, 常规硬件配置\n\n\n</string>
   <string name="radio_ppp_hpw_details3">硬件接口=RS-232</string>
   <string name="radio_ppp_hpw_details4">\n\n\n这些通常是用于较旧 PRC-152 的线缆，支持 HPW/PPP 但不支持 ANW2</string>
@@ -2765,7 +2765,7 @@
   <string name="failed_to_post_package">发布包失败：%s</string>
   <string name="mission_package_notifying_receivers">正在通知接收者…</string>
   <string name="package_already_on_server">包已在服务器上：%s</string>
-  <string name="mission_package_falling_back_to_point_to_point">回退到点对点模式</string>
+  <string name="mission_package_falling_back_to_point_to_point">回退到PPP模式</string>
   <string name="mission_package_failed_to_deploy">部署 %1$s 失败：%2$s</string>
   <string name="mission_package_cleaning_up">正在清理，请稍候…</string>
   <string name="mission_package_deleting_file">正在删除文件…</string>
@@ -2910,17 +2910,17 @@
   <string name="imgcap_processing_msg">正在处理要导出的影像。请稍候\u2026</string>
   <string name="imgcap_cancel_msg">已取消影像导出。</string>
   <!-- 联系人连接器 -->
-  <string name="connector_geochat">地理聊天</string>
+  <string name="connector_geochat">GeoChat</string>
   <string name="connector_phone">电话</string>
   <string name="connector_sms">短信</string>
-  <string name="connector_voip">网络电话</string>
-  <string name="connector_xmpp">可扩展消息与存在协议</string>
+  <string name="connector_voip">VOIP</string>
+  <string name="connector_xmpp">XMPP</string>
   <string name="connector_email">电子邮件</string>
   <!--导入管理器-->
   <string name="importmgr_hit_back_to_cancel">按“返回”取消</string>
   <string name="select_entity">选择实体</string>
   <string name="import_manager">导入管理器</string>
-  <string name="importmgr_kml_network_link_configuration">钥匙孔标记语言网络链接配置</string>
+  <string name="importmgr_kml_network_link_configuration">KML网络链接配置</string>
   <string name="url">网址</string>
   <string name="importmgr_auto_nrefresh">自动\n刷新</string>
   <string name="importmgr_interval">间隔：</string>
@@ -2970,22 +2970,22 @@
   <string name="importmgr_check_your_url">请检查您的网址：%s</string>
   <string name="importmgr_request_data_error">请求数据错误</string>
   <string name="importmgr_request_custom_error">请求自定义错误</string>
-  <string name="importmgr_remote_kml_download_failed">远程钥匙孔标记语言下载失败</string>
+  <string name="importmgr_remote_kml_download_failed">远程KML下载失败</string>
   <string name="importmgr_unable_to_determine_url">无法确定网址</string>
-  <string name="importmgr_unable_to_determine_kml_filename">无法确定钥匙孔标记语言文件名</string>
-  <string name="importmgr_remote_kml_download_started">远程钥匙孔标记语言下载已开始…</string>
+  <string name="importmgr_unable_to_determine_kml_filename">无法确定KML文件名</string>
+  <string name="importmgr_remote_kml_download_started">远程KML下载已开始…</string>
   <string name="importmgr_downloading_count_files">正在下载 %d 个文件…</string>
   <string name="importmgr_failed_to_create_local_file_filename">创建本地文件失败：%s</string>
-  <string name="importmgr_invalid_kml">无效的钥匙孔标记语言：%s</string>
-  <string name="importmgr_kml_has_no_features">钥匙孔标记语言没有要素：%s</string>
-  <string name="importmgr_kml_has_invalid_link">钥匙孔标记语言链接无效：%s</string>
+  <string name="importmgr_invalid_kml">无效的KML：%s</string>
+  <string name="importmgr_kml_has_no_features">KML没有要素：%s</string>
+  <string name="importmgr_kml_has_invalid_link">KML链接无效：%s</string>
   <string name="importmgr_only_http_s_network_links_supported">仅支持HTTP(s)网络链接：%s</string>
   <string name="importmgr_unable_to_determine_filename">无法确定文件名</string>
   <string name="contact_info">联系人信息</string>
   <string name="cot_event">目标光标事件</string>
-  <string name="importing_dted">正在导入数字地形高程数据</string>
+  <string name="importing_dted">正在导入DTED高程数据</string>
   <string name="importmgr_processing_file">正在处理 %1$s/%2$s</string>
-  <string name="importmgr_dted_import_completed">数字地形高程数据导入完成 %s</string>
+  <string name="importmgr_dted_import_completed">DTED高程数据导入完成 %s</string>
   <string name="importmgr_with_errors">有错误</string>
   <string name="jpeg_image">JPEG图像</string>
   <string name="no_file_specified">未指定文件</string>
@@ -2997,13 +2997,13 @@
   <string name="importmgr_select_desired_import_method">为 %s 选择所需的导入方法</string>
   <string name="importmgr_overwrite_existing_import">覆盖现有导入？</string>
   <string name="importmgr_overwrite_file2">覆盖：%s？</string>
-  <string name="importmgr_kml_download_folder_not_a_directory">钥匙孔标记语言下载文件夹不是目录：%s</string>
-  <string name="importmgr_remote_kml_download_failed_no_files_downloaded">远程钥匙孔标记语言下载失败 - 未下载钥匙孔标记语言文件</string>
-  <string name="importmgr_remote_kml_import_failed">远程钥匙孔标记语言导入失败</string>
-  <string name="importmgr_remote_kml_download_complete">远程钥匙孔标记语言下载完成</string>
+  <string name="importmgr_kml_download_folder_not_a_directory">KML下载文件夹不是目录：%s</string>
+  <string name="importmgr_remote_kml_download_failed_no_files_downloaded">远程KML下载失败 - 未下载钥匙孔标记语言文件</string>
+  <string name="importmgr_remote_kml_import_failed">远程KML导入失败</string>
+  <string name="importmgr_remote_kml_download_complete">远程KML下载完成</string>
   <string name="importmgr_download_complete_importing_files">下载完成。正在导入 %d 个文件…</string>
-  <string name="importmgr_failed_to_import_remote_kml_error_unknown">导入远程钥匙孔标记语言失败，错误未知</string>
-  <string name="importmgr_remote_kml_download_cancelled">远程钥匙孔标记语言下载已取消</string>
+  <string name="importmgr_failed_to_import_remote_kml_error_unknown">导入远程KML失败，错误未知</string>
+  <string name="importmgr_remote_kml_download_cancelled">远程KML下载已取消</string>
   <string name="importmgr_remote_import_failed">远程导入失败</string>
   <string name="importmgr_remote_import_download_complete">远程导入下载完成</string>
   <string name="importmgr_file_downloaded_importing_now">文件已下载。正在导入 %s…</string>
@@ -3021,9 +3021,9 @@
   <string name="importmgr_discard_the_new_resource">放弃新资源？</string>
   <string name="importmgr_no_url_history_available">无网址历史可用…</string>
   <string name="importmgr_url_history">网址历史</string>
-  <string name="importmgr_edit_kml_network_link_resource">编辑钥匙孔标记语言网络链接资源</string>
+  <string name="importmgr_edit_kml_network_link_resource">编辑KML网络链接资源</string>
   <string name="importmgr_edit_remote_file_resource">编辑远程文件资源</string>
-  <string name="importmgr_add_kml_network_link_resource">添加钥匙孔标记语言网络链接资源</string>
+  <string name="importmgr_add_kml_network_link_resource">添加KML网络链接资源</string>
   <string name="importmgr_add_remote_file_resource">添加远程文件资源</string>
   <string name="importmgr_specify_name_for_resource">请为资源指定一个名称</string>
   <string name="url_missing">网址缺失</string>
@@ -3062,7 +3062,7 @@
   <string name="about_screen_make_model">设备：%1$s 安卓构建版本：%2$d</string>
   <string name="preferences_access_night_vision_settings">夜视偏好设置</string>
   <string name="preferences_night_vision_settings_summary">启动控制夜视模式的工具和设置</string>
-  <string name="nogps_stmt">无全球定位系统\n请点击此处\n手动设置您的位置</string>
+  <string name="nogps_stmt">无GPS\n请点击此处\n手动设置您的位置</string>
   <string name="z" translatable="false">Z</string>
   <string name="button">按钮</string>
   <string name="protocol">协议</string>
@@ -3128,16 +3128,16 @@
   <string name="delete_items">删除项目</string>
   <string name="select_file">选择文件</string>
   <string name="select_file_to_send">选择要发送的文件</string>
-  <string name="zipped_dted">压缩的数字地形高程数据目录</string>
-  <string name="gpx_file">GPS交换格式文件</string>
+  <string name="zipped_dted">压缩的DTED高程数据目录</string>
+  <string name="gpx_file">GPX文件</string>
   <string name="gpx_route_file">路线</string>
   <string name="drw_file">DRW文件</string>
-  <string name="grg_file">地理参考栅格图形文件</string>
-  <string name="kml_file">钥匙孔标记语言文件</string>
-  <string name="fav_file">收藏夹文件</string>
+  <string name="grg_file">GRG文件</string>
+  <string name="kml_file">KML文件</string>
+  <string name="fav_file">FAV文件</string>
   <string name="kmz_file">KMZ文件</string>
   <string name="lpt_file">LPT文件</string>
-  <string name="csv_file">逗号分隔值文件</string>
+  <string name="csv_file">CSV文件</string>
   <string name="mvt_file">Mapbox矢量瓦片</string>
   <string name="preference_file">偏好文件</string>
   <string name="shapefile">形状文件</string>
@@ -3186,8 +3186,8 @@
   <string name="app_plugin">应用/插件</string>
   <string name="toolpref_nightvision">工具偏好设置/夜视偏好设置</string>
   <string name="threehundredsixty" translatable="false">360</string>
-  <string name="_5_line">5-行线</string>
-  <string name="rw_gunship_ncff">固定翼/武装直升机 近距离空中支援请求</string>
+  <string name="_5_line">五行报文</string>
+  <string name="rw_gunship_ncff">固定翼/武装直升机 近空支援请求</string>
   <string name="callsign_with_colon">呼号</string>
   <string name="control_type">控制类型</string>
   <string name="line_2">第2行</string>
@@ -3260,8 +3260,8 @@
   <string name="_11841" translatable="false">11841</string>
   <string name="_3002" translatable="false">3002</string>
   <string name="ignore_embedded_klv">忽略嵌入式键-长-值数据</string>
-  <string name="encode_analog_video_half_size">编码模拟视频为半尺寸</string>
-  <string name="encode_analog_video_as_mpeg_2">将模拟视频编码为MPEG-2</string>
+  <string name="encode_analog_video_half_size">编码Analog视频为半尺寸</string>
+  <string name="encode_analog_video_as_mpeg_2">将Analog视频编码为MPEG-2</string>
   <string name="video_bitrate_range">视频比特率\n（范围 500–4000，默认 1500）</string>
   <string name="_1500" translatable="false">1500</string>
   <string name="_paren_0_thesis_" translatable="false">(0)</string>
@@ -3285,7 +3285,7 @@
   <string name="_1013" translatable="false">1013</string>
   <string name="_1km_2m" translatable="false">1公里 - 2米</string>
   <string name="_8_tracks" translatable="false">8条轨迹</string>
-  <string name="default_route_prc152">默认路线 - 这是一项高级功能，不应为标准哈里斯SA操作启用。除非得到指示，否则请勿启用。</string>
+  <string name="default_route_prc152">默认路线 - 这是一项高级功能，不应为标准Harris SA操作启用。除非得到指示，否则请勿启用。</string>
   <string name="c_130" translatable="false">C-130</string>
   <string name="https_server" translatable="false">https://server</string>
   <string name="_534_kb" translatable="false">534 KB</string>
@@ -3358,7 +3358,7 @@
   <string name="rover_sideband_klv">Rover边带键-长-值数据</string>
   <string name="rover_over_wifi">通过WiFi连接Rover</string>
   <string name="hostile_manager">敌方管理器</string>
-  <string name="nineline_text14">是否要从该敌方移除九行线？</string>
+  <string name="nineline_text14">是否要从该敌方移除九行保温？</string>
   <string name="point_dropper_text39">点击地图放置敌方标记。</string>
   <string name="laser_basket_prompt4">点击目标。必须是敌方。</string>
   <string name="point_dropper_text40">设置的传感器兴趣点更新延迟无效。正在重置为默认值5。</string>
@@ -3538,7 +3538,7 @@
   <string name="ping_radio">Ping无线电</string>
   <string name="ping">Ping</string>
   <string name="colon_with_spaces" translatable="false">：</string>
-  <string name="disable_cot" translatable="false">禁用目标光标事件</string>
+  <string name="disable_cot" translatable="false">禁用CoT事件</string>
   <string name="video_bitrate">视频比特率</string>
   <string name="range_500_4000_default_1500" translatable="false">（范围 500-4000，默认 1500）</string>
   <string name="outline">轮廓</string>
@@ -3830,15 +3830,15 @@
   <string name="coloring_and_tinting">颜色 / 色调</string>
   <string name="other_misc_display_options">其他杂项显示选项</string>
   <string name="hsppplink">点对点链路高速能力</string>
-  <string name="hsppplink_summary">选中时，系统上的点对点链路被视为具有高速能力。除非得到指示，否则不应启用。较新的无线电能够支持高速点对点隧道。较旧的无线电支持非高速的基于串行的点对点连接。对于这些较旧的无线电，开启此功能会使链路过饱和，从而有效地禁用该能力。</string>
+  <string name="hsppplink_summary">选中时，系统上的PPP链路被视为具有高速能力。除非得到指示，否则不应启用。较新的无线电能够支持高速PPP隧道。较旧的无线电支持非高速的基于串行的PPP连接。对于这些较旧的无线电，开启此功能会使链路过饱和，从而剧烈地干扰该能力。</string>
   <!-- 橡胶片 -->
-  <string name="rubber_sheet">橡胶片</string>
+  <string name="rubber_sheet">叠加图</string>
   <string name="failed_to_read_image">读取图像失败：%s</string>
   <string name="read_image_cancelled">已取消读取图像：%s</string>
   <string name="creating_rubber_sheet">正在为 %s 创建橡胶片…</string>
-  <string name="remove_rs_msg">移除橡胶片“%s”？</string>
+  <string name="remove_rs_msg">移除叠加图“%s”？</string>
   <string name="remove_rs_models_msg">移除“%2$s”中的 %1$d 个模型？</string>
-  <string name="unable_to_find_sheet">找不到片。</string>
+  <string name="unable_to_find_sheet">找不到图片。</string>
   <string name="rotate_sheet_tooltip">使用两根手指旋转片到位。</string>
   <string name="drag_sheet_tooltip">拖动矩形的角、边或中心。</string>
   <string name="rotate_model_tooltip1">使用两根手指旋转模型 %s。</string>
@@ -4034,17 +4034,17 @@
   <string name="tadilj_settings">数据链偏好设置</string>
   <string name="tadilj_id">我的数据链ID</string>
   <string name="tadilj_id2">数据链ID</string>
-  <string name="tadilj_self_type">发送自身态势感知消息的数据链消息类型</string>
-  <string name="tadilj_track_block">应自动分配给敌方目标的数据链ID块的起始点</string>
-  <string name="tadilj_settings_summary">调整数据链消息偏好设置</string>
-  <string name="managePersistedIdsSummary">点击以管理持久化数据链ID。</string>
-  <string name="showTadiljIdsTitle">显示数据链ID</string>
-  <string name="showTadiljIdsSummary">如果选中，其他用户的数据链ID将显示在地图上。</string>
-  <string name="replaceTadiljIdsCallsignTitle">用数据链ID替换呼号</string>
-  <string name="replaceTadiljIdsCallsignSummary">在自身坐标显示中，用数据链ID替换呼号。</string>
-  <string name="preferences_text438">重置数据链偏移</string>
-  <string name="details_text50">"输入数据链信息："</string>
-  <string name="details_text52">"清除所有数据链联系人？"</string>
+  <string name="tadilj_self_type">发送自身态势感知消息的Tadilj消息类型</string>
+  <string name="tadilj_track_block">应自动分配给敌方目标的Tadilj ID块的起始点</string>
+  <string name="tadilj_settings_summary">调整Tadilj 消息偏好设置</string>
+  <string name="managePersistedIdsSummary">点击以管理持久化Tadilj ID。</string>
+  <string name="showTadiljIdsTitle">显示Tadilj ID</string>
+  <string name="showTadiljIdsSummary">如果选中，其他用户的Tadilj ID将显示在地图上。</string>
+  <string name="replaceTadiljIdsCallsignTitle">用Tadilj ID替换呼号</string>
+  <string name="replaceTadiljIdsCallsignSummary">在自身坐标显示中，用Tadilj ID替换呼号。</string>
+  <string name="preferences_text438">重置Tadilj偏移</string>
+  <string name="details_text50">"输入Tadilj信息："</string>
+  <string name="details_text52">"清除所有Tadilj联系人？"</string>
   <string name="civ_stringSPIDesc">切换数字指针工具。</string>
   <string name="civ_quick_select_spi">快速选择数字指针</string>
   <string name="civ_tool_text31">数字指针有一个菜单项，选中后允许将数字指针围绕半径拖动，以纠正激光测距仪中磁罗盘引入的问题。红色圆锥体显示报告射弹两侧10度的偏移，以帮助修正。</string>
@@ -4067,7 +4067,7 @@
   <!-- 用于过滤器名称 -->
   <string name="civ_filter_title_markers">标记</string>
   <string name="civ_filter_title_hostiles">红色标记</string>
-  <string name="mil_filter_title_marker" translatable="false">目标光标事件 2525C</string>
+  <string name="mil_filter_title_marker" translatable="false">CoT 2525C</string>
   <string name="mil_filter_title_hostiles">敌方标记</string>
   <string name="mission_type">任务类型</string>
   <string name="indirect_fire">间接</string>
@@ -4087,7 +4087,7 @@
   <string name="not_officially_signed">此插件未正式签名。</string>
   <string name="elevation_data">高程数据</string>
   <string name="addendum">附录</string>
-  <string name="webview_not_installed">此显示窗口不受支持，因为未安装安卓系统Web视图。</string>
+  <string name="webview_not_installed">此显示窗口不受支持，因为未安装Android System Webview。</string>
   <string name="use_your_location_title">在后台使用您的位置</string>
   <string name="background_permission_warning">ATAK请求在后台收集位置的能力，以便当用户运行ATAK并将其置于后台执行其他活动时，它可以继续向团队成员报告精确位置，无论是通过用户配置使用的TAK服务器在本地网络上。数据被发送给其他团队成员，以显示帮助协调事件响应、灾难救援和个人安全等事务的个人的精确位置。</string>
   <string name="background_permission_warning_bullet">\t1) 此数据不会发送给应用程序的开发者。\n\t2) ATAK仅在应用程序后台运行时收集位置数据，当应用未运行时不会收集。</string>
@@ -4105,10 +4105,10 @@
   <string name="invalid_cot_address">遇到无效输出，请确保地址不包含协议或端口。</string>
   <string name="image_overlay_hud">影像叠加层</string>
   <string name="image_overlay_warning">此选项会将元数据永久叠加到图像上。继续吗？</string>
-  <string name="kml_network_link">钥匙孔标记语言网络链接</string>
-  <string name="kml_links_added_msg">已添加 %d 个钥匙孔标记语言网络链接</string>
-  <string name="kml_links_added_failed_msg">添加钥匙孔标记语言网络链接失败</string>
-  <string name="import_kml_network_link">导入钥匙孔标记语言网络链接</string>
+  <string name="kml_network_link">KML网络链接</string>
+  <string name="kml_links_added_msg">已添加 %d 个KML网络链接</string>
+  <string name="kml_links_added_failed_msg">添加KML网络链接失败</string>
+  <string name="import_kml_network_link">导入KML网络链接</string>
   <string name="kml_link_desc">%1$s （%2$d 个子链接）</string>
   <string name="resection_ideal_conditions_label">理想条件</string>
   <string name="resection_relative_accuracy_label">相对精度</string>
@@ -4134,7 +4134,7 @@
   <string name="location_permission_step3">步骤3：</string>
   <string name="general_permission_step1">步骤1：</string>
   <string name="general_permission_step2">步骤2：查看拒绝列表</string>
-  <string name="resection_required_data_label">所需数据（例如，数字地形高程数据）</string>
+  <string name="resection_required_data_label">所需数据（例如，DTED高程数据）</string>
   <string name="resection_required_hardware">所需硬件（例如，PLRF）</string>
   <string name="resection_classic_tool_required_data">无需特殊数据</string>
   <string name="resection_classic_tool_required_hardware">无需特殊硬件</string>
@@ -4161,7 +4161,7 @@
   <string name="show_fov_labels">显示视场角度</string>
   <string name="fov_range_line_spacing">距离线间距：</string>
   <string name="sensor_range_lines_meters">距离线间距（米）</string>
-  <string name="dted_cell">数字地形高程数据单元</string>
+  <string name="dted_cell">DTED高程数据单元</string>
   <string name="device_information">设备信息</string>
   <string name="same_point_warning">警告：必须是不同的点</string>
   <string name="channels_updated">信道已更新</string>
@@ -4342,7 +4342,7 @@
   <string name="edit_features">编辑要素</string>
   <string name="pref_missionpkg_legacy_http_en">允许为传统客户端进行HTTP传输</string>
   <string name="pref_missionpkg_legacy_http_title">允许HTTP传输</string>
-  <string name="select_harris_sa_radio">为哈里斯SA选择无线电</string>
+  <string name="select_harris_sa_radio">为Harris SA选择无线电</string>
   <string name="harris_sa_failed_to_configure">配置无线电失败</string>
   <string name="quick_pic_preferences">快速拍照偏好设置</string>
   <string name="camera_app_summary">选择用于快速拍照的应用程序</string>
@@ -5251,14 +5251,14 @@
   <string name="bullseye_ring_radius_m">靶心环半径（米）</string>
   <string name="additionally_reimport_the_exported_file">另外，重新导入导出的文件</string>
   <string name="prompt_file_import_multiple_match">如果文件可以通过多种方式导入，则提示用户。</string>
-  <string name="mesh_encryption">网状网加密</string>
-  <string name="mesh_encryption_message">启用设备间网状网流量的加密。一旦设置了加密模式，网状网上将不处理明文流量。</string>
+  <string name="mesh_encryption">网状组网加密</string>
+  <string name="mesh_encryption_message">启用设备间网状组网流量的加密。一旦设置了加密模式，网状组网上将不处理明文流量。</string>
   <string name="generate_key">生成密钥</string>
   <string name="load_key">加载密钥</string>
   <string name="forget_key">忘记密钥</string>
-  <string name="mesh_key_loaded">网状网加密密钥已加载</string>
+  <string name="mesh_key_loaded">网状组网加密密钥已加载</string>
   <string name="failed_save_bad_filename">保存失败，文件名无效</string>
-  <string name="kml_large_number_of_points">正在导入的钥匙孔标记语言文件包含一个具有大量点的形状。绘图工具当前不支持此类形状，将被跳过。</string>
+  <string name="kml_large_number_of_points">正在导入的KML文件包含一个具有大量点的形状。绘图工具当前不支持此类形状，将被跳过。</string>
   <string name="no_gps_word">无全球定位系统</string>
   <string name="use_automatic_planner">使用自动规划器</string>
   <string name="manual_entry">手动输入</string>
@@ -5353,7 +5353,7 @@
   <string name="HIDE">隐藏</string>
   <string name="acrobat_warning">建议您使用官方的Acrobat Reader。在其他安卓PDF应用程序中查看文档可能无法正常工作。</string>
   <string name="acrobat_warning_title">缺少Acrobat Reader</string>
-  <string name="restore_location_restart_summary">在无全球定位系统区域，允许在重启ATAK时将您的自身标记放置到最后已知位置。</string>
+  <string name="restore_location_restart_summary">在无GPS区域，允许在重启ATAK时将您的自身标记放置到最后已知位置。</string>
   <string name="restore_location_restart_title">重启时恢复我的位置</string>
   <string name="anti_aircraft_artillery">高射炮</string>
   <string name="surface_to_air_missile">地空导弹</string>
@@ -5434,9 +5434,9 @@
   <string name="domain_labels_ground">地面</string>
   <string name="domain_labels_aviation">航空</string>
   <string name="domain_labels_maritime">海上</string>
-  <string name="gps_options_external_only">仅忽略内部全球定位系统/使用外部或网络全球定位系统</string>
-  <string name="gps_options_internal_only">仅内部全球定位系统</string>
-  <string name="gps_options_external_fallback">外部或网络全球定位系统/回退内部全球定位系统</string>
+  <string name="gps_options_external_only">仅忽略内部GPS/使用外部或网络GPS</string>
+  <string name="gps_options_internal_only">仅内部GPS</string>
+  <string name="gps_options_external_fallback">外部或网络GPS/回退内部GPS</string>
   <string name="color_red">红</string>
   <string name="color_yellow">黄</string>
   <string name="color_green">绿</string>
@@ -6049,8 +6049,8 @@
   <string name="fast_speed">快速</string>
   <string name="fastest_speed">最快</string>
   <string name="slow_speed">慢速</string>
-  <string name="gps_interval_option_summary">此设置允许用户建议设备内部传感器的期望全球定位系统更新频率。用户可以从三个选项中选择：\n • 正常：常规跟踪的标准更新频率。\n • 快速：更高的更新频率，适用于需要更快位置更新的场景。\n • 最快：最高更新频率，最适合动态环境或关键跟踪需求。\n\n注意：此设置仅为建议；实际更新速率将取决于硬件满足所选偏好的能力。</string>
-  <string name="gps_update_interval_title">内部全球定位系统更新速率建议</string>
+  <string name="gps_interval_option_summary">此设置允许用户建议设备内部传感器的期望GPS更新频率。用户可以从三个选项中选择：\n • 正常：常规跟踪的标准更新频率。\n • 快速：更高的更新频率，适用于需要更快位置更新的场景。\n • 最快：最高更新频率，最适合动态环境或关键跟踪需求。\n\n注意：此设置仅为建议；实际更新速率将取决于硬件满足所选偏好的能力。</string>
+  <string name="gps_update_interval_title">内部GPS更新速率建议</string>
   <string name="remove_hashtag">移除话题标签</string>
   <string name="a_urgent_choice">A - 紧急</string>
   <string name="b_urgent_surgical_choice">B - 紧急手术</string>
@@ -6138,7 +6138,7 @@
     <string name="sync">同步</string>
   <string name="invalid_entry">无效条目</string>
   <string name="please_enter_a_valid_url">请输入有效的网址</string>
-  <string name="restore_update_local_path">恢复原始安卓安装包更新本地路径。</string>
+  <string name="restore_update_local_path">恢复原始APK更新本地路径。</string>
   <string name="later">稍后</string>
   <string name="configured_servers">已配置的服务器</string>
   <string name="quick_configure_update_server_title">从TAK服务器快速配置更新服务器网址</string>
@@ -6156,7 +6156,7 @@
   <string name="load_s">加载 %s</string>
   <string name="plugin_already_installed_load">%1$s 已安装且兼容，是否要立即将此插件加载到 %2$s？\n%3$s</string>
     <string name="quic_protocol_title">QUIC协议</string>
-  <string name="quic_protocol_summary">启用QUIC协议用于网状网上的直接设备到设备消息传递。对于服务器（流式）连接，需要在服务器的特定配置页面中启用QUIC。建议禁用“监视服务器连接”以进一步减少与服务器相关的网络流量，除非您的网络需要。</string>
+  <string name="quic_protocol_summary">启用QUIC协议用于网状组网上的直接设备到设备消息传递。对于服务器（流式）连接，需要在服务器的特定配置页面中启用QUIC。建议禁用“监视服务器连接”以进一步减少与服务器相关的网络流量，除非您的网络需要。</string>
   <string name="enable_streaming_server_on_vpn_only_title">仅在虚拟专用网络上启用流式服务器</string>
   <string name="enable_streaming_server_on_vpn_only_summary">仅当存在并启用了虚拟专用网络时，才允许流式服务器连接。如果虚拟专用网络未运行，服务器连接将被禁用。</string>
   <string name="gateway_system_interoperability_title">网关系统互操作性</string>
@@ -6198,20 +6198,20 @@
   <string name="region_manager">区域管理器</string>
   <string name="reroute_planner">重新规划路线规划器</string>
   <string name="reroute">重新规划路线</string>
-  <string name="enter_ftp_details">输入文件传输协议详情</string>
-  <string name="must_enter_ftp_host">必须输入文件传输协议主机</string>
-  <string name="failed_to_ftp_upload">文件传输协议上传失败</string>
-  <string name="ftp_upload_failed">文件传输协议上传失败</string>
-  <string name="ftp_server_not_available">文件传输协议服务器不可用</string>
-  <string name="confirm_ftp_overwrite">确认文件传输协议覆盖</string>
-  <string name="ftp_upload_failed_s">文件传输协议上传失败：%s</string>
-  <string name="ftp_upload_failing">文件传输协议上传失败</string>
+  <string name="enter_ftp_details">输入FTP详情</string>
+  <string name="must_enter_ftp_host">必须输入FTP主机</string>
+  <string name="failed_to_ftp_upload">FTP上传失败</string>
+  <string name="ftp_upload_failed">FTP上传失败</string>
+  <string name="ftp_server_not_available">FTP服务器不可用</string>
+  <string name="confirm_ftp_overwrite">确认FTP覆盖</string>
+  <string name="ftp_upload_failed_s">FTP上传失败：%s</string>
+  <string name="ftp_upload_failing">FTP上传失败</string>
   <string name="file_not_found">未找到文件</string>
   <string name="could_not_disable_battery_optimization">无法禁用电池优化。</string>
   <string name="failed_to_view_image">查看图像失败</string>
   <string name="point_source_warning">点源源自精确影像\n不允许更改类别</string>
   <string name="invalid_configuration_please_delete_it">无效配置，请删除它</string>
-  <string name="no_web_browser_application_found">未找到网络浏览器应用程序</string>
+  <string name="no_web_browser_application_found">未找到网络浏览器应用</string>
   <string name="failed_to_automatically_discover_the_rover">无法自动发现Rover无线电</string>
   <string name="installing_s">正在安装 %s</string>
   <string name="the_passphrase_change_failed">密码短语更改失败</string>
